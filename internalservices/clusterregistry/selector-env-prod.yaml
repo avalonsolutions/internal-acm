@@ -5,4 +5,4 @@ metadata:
 spec:
   selector:
     matchLabels:
-      env: prod
+      environment: prod
