@@ -1,0 +1,8 @@
+kind: Cluster
+apiVersion: clusterregistry.k8s.io/v1alpha1
+metadata:
+  name: gke-name-staging-belgium
+  labels:
+    location: belgium
+    environment: staging
+    private: false

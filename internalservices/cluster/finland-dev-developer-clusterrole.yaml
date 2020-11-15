@@ -1,0 +1,11 @@
+# The finland-dev-developer role is used for developers working on applications who are bound to running to Belgium only in dev environments.
+kind: ClusterRole
+apiVersion: rbac.authorization.k8s.io/v1
+metadata:
+  name: finland-dev-developer
+  annotations:
+    configmanagement.gke.io/cluster-selector: selector-env-dev-location-finland
+rules:
+- apiGroups: [""]
+  resources: ["pod", "service", "daemonset", "deployment", "replicaset", "statefulset", "job", "cronjobs"]
+  verbs: ["create", "get", "watch", "list", "update", "patch", "delete", "deletecollection"]
