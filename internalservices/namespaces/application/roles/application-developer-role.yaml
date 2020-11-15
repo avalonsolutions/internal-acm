@@ -1,0 +1,9 @@
+apiVersion: rbac.authorization.k8s.io/v1
+kind: Role
+metadata:
+  namespace: application
+  name: application-developer
+rules:
+- apiGroups: [""] # "" indicates the core API group
+  resources: ["pod", "service", "daemonset", "deployment", "replicaset", "statefulset", "job", "cronjobs"]
+  verbs: ["create", "get", "watch", "list", "update", "patch", "delete", "deletecollection"]
