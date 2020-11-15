@@ -1,8 +1,8 @@
 kind: Cluster
 apiVersion: clusterregistry.k8s.io/v1alpha1
 metadata:
-  name: gke-name
+  name: gke-name-dev-belgium
   labels:
     location: belgium
     environment: dev
-    private: false
+    private: "false"

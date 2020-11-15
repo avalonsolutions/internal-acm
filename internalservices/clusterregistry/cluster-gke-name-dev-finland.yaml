@@ -5,4 +5,4 @@ metadata:
   labels:
     location: belgium
     environment: dev
-    private: false
+    private: "false"
