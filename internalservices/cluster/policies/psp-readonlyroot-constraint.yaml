@@ -1,7 +1,7 @@
 apiVersion: constraints.gatekeeper.sh/v1beta1
-kind: K8sPSPPrivilegedContainer
+kind: K8sPSPReadOnlyRootFilesystem
 metadata:
-  name: psp-privileged-container
+  name: psp-readonlyrootfilesystem
   annotations:
     configmanagement.gke.io/namespace-selector: selector-restricted-true
 spec:

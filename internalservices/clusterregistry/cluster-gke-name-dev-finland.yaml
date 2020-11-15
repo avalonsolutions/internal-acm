@@ -3,6 +3,6 @@ apiVersion: clusterregistry.k8s.io/v1alpha1
 metadata:
   name: finland-gke-cluster
   labels:
-    location: belgium
+    location: finland
     environment: dev
     private: "false"
