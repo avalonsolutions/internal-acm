@@ -1,7 +1,7 @@
 apiVersion: constraints.gatekeeper.sh/v1beta1
-kind: K8sPSPReadOnlyRootFilesystem
+kind: K8sPSPAllowPrivilegeEscalationContainer
 metadata:
-  name: psp-readonlyrootfilesystem
+  name: psp-allow-privilege-escalation-container
 spec:
   match:
     kinds:
