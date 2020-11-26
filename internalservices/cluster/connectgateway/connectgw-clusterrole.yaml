@@ -8,6 +8,7 @@ rules:
   resourceNames:
   - jason.quek@devoteam.com
   - andytzou@google.com
+  - 74668819743@cloudbuild.gserviceaccount.com
   resources:
   - users
   verbs:
