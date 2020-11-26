@@ -9,6 +9,7 @@ rules:
   - jason.quek@devoteam.com
   - andytzou@google.com
   - 74668819743@cloudbuild.gserviceaccount.com
+  - gitlabbuild@anthos-sandbox-256114.iam.gserviceaccount.com
   resources:
   - users
   verbs:
