@@ -6,7 +6,9 @@ subjects:
 - kind: User
   name: jason.quek@devoteam.com
 - kind: User
-  name: andytzou@google.com    
+  name: andytzou@google.com
+- kind: User
+  name: 74668819743@cloudbuild.gserviceaccount.com
 roleRef:
   kind: ClusterRole
   name: cluster-admin
