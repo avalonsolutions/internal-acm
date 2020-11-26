@@ -9,6 +9,8 @@ subjects:
   name: andytzou@google.com
 - kind: User
   name: 74668819743@cloudbuild.gserviceaccount.com
+- kind: User
+  name: gitlabbuild@anthos-sandbox-256114.iam.gserviceaccount.com
 roleRef:
   kind: ClusterRole
   name: cluster-admin
